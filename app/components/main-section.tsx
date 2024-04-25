@@ -1,12 +1,11 @@
 "use client";
 
-import AboutSection from "./sections/about-section";
+import { AboutSection } from "./sections/about-section";
 import { JobListSection } from "./sections/job-list-section";
-import { CompaniesSection } from "./sections/companies-section";
 import { useEffect } from "react";
 import { HeroSectionBasic } from "./sections/hero-section-basic";
 
-export function Main() {
+export function MainSection() {
   const handleClick = (event: any) => {
     const { target } = event;
 
@@ -32,7 +31,7 @@ export function Main() {
       timestamp: new Date().toISOString(),
     };
     // Send click event data to the server
-    console.log(clickEventData);
+    // console.log(clickEventData);
   };
 
   const handleScroll = () => {
@@ -45,7 +44,7 @@ export function Main() {
       timestamp: new Date().toISOString(),
     };
     // Send scroll event data to the server
-    console.log(scrollEventData);
+    // console.log(scrollEventData);
   };
 
   const trackEvent = async (eventType: string, eventData: any) => {
@@ -83,7 +82,6 @@ export function Main() {
       <HeroSectionBasic />
       <AboutSection />
       <JobListSection />
-      {/* <CompaniesSection /> */}
     </section>
   );
 }
