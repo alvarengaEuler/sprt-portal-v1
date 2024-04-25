@@ -29,8 +29,10 @@ export const HeroSectionBasic = () => {
             repeat={Infinity}
           />
         </h1>
-        <p className="mb-4 xl:w-3/4 text-gray-600 text-lg">
-          I craft user-friendly digital experiences.
+        <p className="mb-4 xl:w-3/4 text-gray-600 text-md text-justify">
+          I'm an independent app developer from Brazil trying to build a
+          profitable small company on my own. I also craft user-friendly digital
+          experiences and can help you do. Both Mobile or Web-wise
         </p>
 
         <div className="flex flex-col gap-4 mt-4 md:flex-row lg:flex-row justify-center w-[330px]">
