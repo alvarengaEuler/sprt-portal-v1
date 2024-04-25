@@ -66,7 +66,7 @@ export const Nav = () => {
         </Link>
         {/* <PiGooglePlayLogo size={20} className="text-slate-800" /> */}
         <Link
-          href="https://https://github.com/alvarengaEuler/"
+          href="https://github.com/alvarengaEuler/"
           aria-label="github link"
           target="_blank"
         >
