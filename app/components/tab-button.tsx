@@ -1,0 +1,31 @@
+import React from "react";
+import { motion } from "framer-motion";
+
+const variants = {
+  default: { width: 0 },
+  active: { width: "calc(100% - 0.75rem)" },
+};
+
+type CProps = {
+  active: boolean;
+  selectTab: () => void;
+  children: React.ReactNode;
+};
+const TabButton = ({ active, selectTab, children }: CProps) => {
+  const buttonClasses = active ? "text-joy" : "text-gray-600";
+
+  return (
+    <button onClick={selectTab}>
+      <p className={`mr-3 font-semibold hover:text-gray-900 ${buttonClasses}`}>
+        {children}
+      </p>
+      <motion.div
+        animate={active ? "active" : "default"}
+        variants={variants}
+        className="h-1 bg-primary-500 mt-2 mr-3"
+      ></motion.div>
+    </button>
+  );
+};
+
+export default TabButton;
