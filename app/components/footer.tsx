@@ -10,7 +10,8 @@ export const Footer = () => {
         <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-md">
             <strong className="block text-center text-xl font-bold text-gray-900 sm:text-3xl">
-              We're about an email of distance. Let's have a nice call?
+              We&apos;re about an email of distance. Let&apos;s have a nice
+              call?
             </strong>
 
             <form className="mt-6">
