@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description: "I build digital solutions both mobile and web",
     images: [
       {
-        url: "https://photos.google.com/share/AF1QipN1VIxuUwEZOC_pwNvMr687oRDIweY1adex9JwPdSHa39RNZ-bXmDuFADyJdaWEtA/photo/AF1QipMpAlivVCoKJIeV664NKLNgcJB_Z4eH08PwFBPv?key=RjhoTVBiU1NLZXV3VHVjQkhVVFhJVkhFeVRMcmVn",
+        url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihalj2pW1aNNErbckMD7iIMYFTfogKYGn138tTDXAg35ORlzlNB9LRv2owSiIwlvVP1LD1zfTfl7aFEY-59USfDjAoyBoP-i-JE=w1627-h934-rw-v1",
         width: 878,
         height: 516,
         alt: "Euler Alvarenga business card",
