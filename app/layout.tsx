@@ -22,14 +22,14 @@ export const metadata: Metadata = {
   },
   openGraph: {
     url: "#",
-    title: "Euler Alvarenga | Frontend Developer",
-    description: "Hey! I'm Euler Alvarenga, A Software Engineer!",
+    title: "Euler Alvarenga | Mobile Developer",
+    description: "I build digital solutions both mobile and web",
     images: [
       {
         url: "https://photos.google.com/share/AF1QipN1VIxuUwEZOC_pwNvMr687oRDIweY1adex9JwPdSHa39RNZ-bXmDuFADyJdaWEtA/photo/AF1QipMpAlivVCoKJIeV664NKLNgcJB_Z4eH08PwFBPv?key=RjhoTVBiU1NLZXV3VHVjQkhVVFhJVkhFeVRMcmVn",
-        width: 800,
-        height: 474,
-        alt: "Euler Alvarenga | Frontend Developer",
+        width: 878,
+        height: 516,
+        alt: "Euler Alvarenga business card",
       },
     ],
   },
