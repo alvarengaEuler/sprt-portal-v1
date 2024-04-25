@@ -1,11 +1,12 @@
-import { LinkedinIcon, MailIcon, XIcon } from "lucide-react";
 import Link from "next/link";
 
 import {
-  PiGooglePlayLogo,
-  PiAppStoreLogo,
-  PiYoutubeLogo,
-} from "react-icons/pi";
+  SiLinkedin,
+  SiGithub,
+  SiInstagram,
+  SiX,
+  SiGoogleplay,
+} from "react-icons/si";
 
 export const Nav = () => {
   return (
@@ -50,11 +51,34 @@ export const Nav = () => {
         xl:text-xl
         xl:rounded-full"
       >
-        <LinkedinIcon size={20} className="text-slate-800" />
-        <PiGooglePlayLogo size={20} className="text-slate-800" />
-        <PiAppStoreLogo size={20} className="text-slate-800" />
-        <PiYoutubeLogo size={20} className=" text-slate-800" />
-        <XIcon size={20} className="text-slate-800" />
+        <Link
+          href="https://www.linkedin.com/in/euler-alvarenga-b9704467/"
+          aria-label="linkedin link"
+          target="_blank"
+        >
+          <SiLinkedin
+            href="https://www.linkedin.com/in/euler-alvarenga-b9704467/"
+            aria-label="linkedin link"
+            target="_blank"
+            size={20}
+            className="text-slate-800"
+          />
+        </Link>
+        {/* <PiGooglePlayLogo size={20} className="text-slate-800" /> */}
+        <Link
+          href="https://https://github.com/alvarengaEuler/"
+          aria-label="github link"
+          target="_blank"
+        >
+          <SiGithub size={20} className="text-slate-800" />
+        </Link>
+        <Link
+          href="https://twitter.com/rithienroll"
+          aria-label="twitter link"
+          target="_blank"
+        >
+          <SiX size={20} className=" text-slate-800" />
+        </Link>
       </div>
     </nav>
   );
