@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { MoveRight } from "lucide-react";
 import Link from "next/link";
 
-export function Header() {
+export function HeaderSection() {
   return (
     <div className=" fixed top-0 w-full z-30 clearNav md:bg-opacity-90 transition duration-300 ease-in-out">
       <div className="flex flex-col max-w-6xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">

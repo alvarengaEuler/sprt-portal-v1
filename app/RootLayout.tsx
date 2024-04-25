@@ -1,5 +1,5 @@
 import { Nav } from "./components/nav";
-import { Header } from "./components/header";
+import { Header } from "./components/header-section";
 import Head from "next/head";
 import { Footer } from "./components/footer";
 import { inter } from "./layout";
