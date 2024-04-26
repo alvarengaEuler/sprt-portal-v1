@@ -45,7 +45,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <HeaderSection />
         <Nav />
-        {children}
+        <main className="mx-auto max-w-7xl">{children}</main>
+
         <Footer />
       </body>
     </html>

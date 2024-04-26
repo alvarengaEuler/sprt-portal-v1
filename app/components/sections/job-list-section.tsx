@@ -54,7 +54,10 @@ export const JobListSection = () => {
   return (
     <div>
       <section className="text-gray-600 overflow-hidden">
-        <div className="container px-4 py-24 mx-auto">
+        <div className="container px-4 py-8 mx-auto">
+          <h2 className="Avenir text-4xl font-bold mb-4 text-primary">
+            Recent Experiences
+          </h2>
           <div className="-my-8 divide-y-2 divide-gray-100">
             {data.map((item) => (
               <div

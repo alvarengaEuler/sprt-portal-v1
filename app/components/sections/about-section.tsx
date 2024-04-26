@@ -1,4 +1,21 @@
+import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
+
+const skills = [
+  "React Native",
+  "ReactJS",
+  "NextJs",
+  "Zustand",
+  "Redux",
+  "Solid",
+  "TDD",
+  "Native Modules",
+  "Expo",
+  "iOS",
+  "Android",
+  "Tailwind",
+  "Typescript",
+];
 
 export const AboutSection = () => {
   return (
@@ -26,6 +43,13 @@ export const AboutSection = () => {
               a team player and I am excited to work with others to create
               amazing applications.
             </p>
+            <div className="flex flex-row flex-wrap py-4 gap-2">
+              {skills.map((tag, index) => (
+                <Badge key={index} variant="default">
+                  {tag}
+                </Badge>
+              ))}
+            </div>
           </div>
         </div>
       </a>

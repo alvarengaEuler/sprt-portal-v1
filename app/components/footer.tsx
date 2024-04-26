@@ -1,7 +1,6 @@
 import React from "react";
-import { SocialIconList } from "./social-icon-list";
+
 import { Button } from "@/components/ui/button";
-import { Soup } from "lucide-react";
 
 export const Footer = () => {
   return (
