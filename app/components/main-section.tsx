@@ -4,6 +4,7 @@ import { AboutSection } from "./sections/about-section";
 import { JobListSection } from "./sections/job-list-section";
 import { useEffect } from "react";
 import { HeroSectionBasic } from "./sections/hero-section-basic";
+import { ContactSection } from "./sections/contact-section";
 
 export function MainSection() {
   const handleClick = (event: any) => {
@@ -81,7 +82,9 @@ export function MainSection() {
     <section className="text-gray-600 body-font">
       <HeroSectionBasic />
       <AboutSection />
+
       <JobListSection />
+      <ContactSection />
     </section>
   );
 }

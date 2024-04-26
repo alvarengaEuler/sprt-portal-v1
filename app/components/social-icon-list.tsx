@@ -10,7 +10,7 @@ import {
 
 export const SocialIconList = () => {
   return (
-    <div className="">
+    <div>
       <div className="mt-6 flex justify-center gap-4 lg:justify-start">
         <Link
           className="text-gray-700 transition hover:text-gray-700/75"
