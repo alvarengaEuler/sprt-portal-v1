@@ -41,11 +41,29 @@ export function ContactForm() {
     },
   });
 
-  // 2. Define a submit handler.
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
-    console.log(values);
+  /**
+   * The function sends a POST request to a server with form data and displays a success notification.
+   * @param {FormInput} formSchema - The formData parameter is an object that contains the input values
+   * from the form.
+   */
+  async function onSubmit(formData: formSchema) {
+    await fetch("/api/send", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      }),
+    }).then(() => {
+      // Toast notification
+      console.log("Your email message has been sent successfully");
+    });
+
+    form.reset();
   }
 
   return (

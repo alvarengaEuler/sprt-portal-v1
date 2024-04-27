@@ -84,6 +84,7 @@ export function MainSection() {
       <AboutSection />
 
       <JobListSection />
+
       <ContactSection />
     </section>
   );

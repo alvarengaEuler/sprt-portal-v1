@@ -1,7 +1,4 @@
 import React from "react";
-
-import { Button } from "@/components/ui/button";
-import { ContactForm } from "./contact-form";
 import { Soup } from "lucide-react";
 import { SocialIconList } from "./social-icon-list";
 

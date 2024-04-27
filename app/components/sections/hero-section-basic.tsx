@@ -3,6 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import { MessageSquareShare, MoveRight } from "lucide-react";
 import { SocialIconList } from "../social-icon-list";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export const HeroSectionBasic = () => {
   return (
@@ -36,10 +37,12 @@ export const HeroSectionBasic = () => {
         </p>
 
         <div className="flex flex-col gap-4 mt-4 md:flex-row lg:flex-row justify-center w-[330px]">
-          <Button className="w-full ">
-            Hire Me!
-            <MessageSquareShare size={18} className="ml-1" />
-          </Button>
+          <Link href={"#contact"}>
+            <Button className="w-full ">
+              Hire Me!
+              <MessageSquareShare size={18} className="ml-1" />
+            </Button>
+          </Link>
           <Button variant="joy">
             Download my CV
             <MoveRight size={18} className="ml-1" />
