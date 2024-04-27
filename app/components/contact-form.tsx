@@ -46,7 +46,13 @@ export function ContactForm() {
    * @param {FormInput} formSchema - The formData parameter is an object that contains the input values
    * from the form.
    */
-  async function onSubmit(formData: formSchema) {
+  type formTypes = {
+    name: string;
+    email: string;
+    message: string;
+  };
+
+  async function onSubmit(formData: formTypes) {
     await fetch("/api/send", {
       method: "POST",
       headers: {
