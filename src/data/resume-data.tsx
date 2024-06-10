@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   summary:
     "I'm a React Native Developer with over 5 years of experience, aiming to use my expertise to build top-notch, smooth-running mobile apps that users love. With a history of driving revenue, improving efficiency, and delivering impactful solutions for big-name companies, I'm ready to bring my skills to your team.",
   avatarUrl: "https://avatars.githubusercontent.com/u/2926662?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://alvarenga.hashnode.dev/",
   contact: {
     email: "euler.sistemas@gmail.com",
     tel: "+5531999402034",
