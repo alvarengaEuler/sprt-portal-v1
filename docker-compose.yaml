@@ -8,3 +8,8 @@ services:
     environment:
       - NODE_ENV=production
     restart: unless-stopped
+
+
+# I'm an independent/indie app developer from Brazil. I enjoy crafting solid and scalable products with great UX and share my findings with others. Currently, I'm trying to build a profitable app business on my own. Currently I'm after a Ramen Profitability.
+
+# I'm an independent app developer from Brazil trying to build a profitable small company on my own. I also craft user-friendly digital experiences and can help you do. Both Mobile or Web-wise
