@@ -90,7 +90,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Mereo",
-      link: null,
+      link: undefined,
       badges: [],
       title: "Mobile Developer (React Native)",
       logo: NSNLogo,
