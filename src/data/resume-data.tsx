@@ -7,7 +7,6 @@ import {
   ConsultlyLogo,
   EvercastLogo,
   Howdy,
-  JarockiMeLogo,
   JojoMobileLogo,
   Minimal,
   MobileVikingsLogo,
@@ -143,7 +142,7 @@ export const RESUME_DATA = {
       techStack: ["Side Project", "Next.js", "MDX"],
       description:
         "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+      logo: undefined,
       link: {
         label: "github.com",
         href: "https://jarocki.me/",
