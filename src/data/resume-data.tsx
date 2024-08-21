@@ -55,8 +55,19 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Praxent LLC - TX",
+      link: "https://praxent.com/",
+      badges: ["Remote"],
+      title: "Mobile Software Engineer",
+      logo: ParabolLogo,
+      start: "2024",
+      end: "2024",
+      description:
+        "Collaborated with cross-functional teams to integrate a React Native application designed to replace existing native iOS and Android apps. Utilized Tamagui for responsive UI and Turbomodules for optimized performance, ensuring seamless cross-platform functionality and enhanced user experience.",
+    },
+    {
       company: "Localiza & Co",
-      link: "https://parabol.co",
+      link: "https://apps.apple.com/br/app/localiza-meoo/id1528537131",
       badges: ["Remote"],
       title: "Software Engineer",
       logo: ParabolLogo,
