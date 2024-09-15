@@ -16,16 +16,16 @@ export default function LocalSwitcher() {
     });
   };
   return (
-    <label className="border-2 rounded">
+    <label className=" border-r border-l border-t border-b px-2  rounded">
       <p className="sr-only">change language</p>
       <select
         defaultValue={localActive}
-        className="bg-transparent py-2"
+        className="bg-transparent !outline-none"
         onChange={onSelectChange}
         disabled={isPending}
       >
-        <option value="en">English</option>
-        <option value="br">Português</option>
+        <option value="br">🇧🇷</option>
+        <option value="en">🇺🇸</option>
       </select>
     </label>
   );

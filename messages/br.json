@@ -1,7 +1,15 @@
 {
   "IndexPage": {
     "title": "next-intl exemplo",
-    "description": "Bem vindo ao meu pais, uhul."
+    "description": "Bem vindo ao meu pais, uhul.",
+    "action": "Ações",
+    "about": "Sobre",
+    "education": "Educação",
+    "projects": "Projetos",
+    "experience": "Experiências",
+    "skills": "Conhecimento",
+    "aboutMe": "Engenheiro Mobile focado na construção de produtos com excelência e atenção aos detalhes",
+    "summary": "+5 anos trabalhando como Engenheiro de Software com uma trajetória diversificada entre mobile e frontend. Recentemente, atuei como desenvolvedor mobile na Praxent LLC, especializado em React Native e TypeScript."
   },
   "NotFoundPage": {
     "title": "Page Not Found",

@@ -1,7 +1,14 @@
 {
   "IndexPage": {
-    "title": "next-intl example",
-    "description": "Welcome to the Next.js Internationalization (i18n) example! This demo showcases the power of the App Router and how to manage multilingual content seamlessly using next-intl."
+    "title": "Euler Alvarenga",
+    "description": "Welcome ",
+    "about": "About",
+    "education": "Education",
+    "projects": "Projects",
+    "experience": "Experience",
+    "skills": "Skills",
+    "aboutMe": "Mobile Engineer focused on building products with extra attention to detail",
+    "summary": "+5 years working as a Software Engineer with a diverse trajectory between mobile and frontend. Most recently, I worked as a mobile developer at Praxent LLC, specializing in React Native and TypeScript."
   },
   "NotFoundPage": {
     "title": "Page Not Found",
