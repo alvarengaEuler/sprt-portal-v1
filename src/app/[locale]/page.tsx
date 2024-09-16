@@ -12,9 +12,15 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
 const getData = async (locale: string) => {
-  const response = await fetch(`/api/data?lang=${locale}`, {
-    cache: "no-cache",
-  });
+  const response = await fetch(
+    `https://euleralvarenga.com/api/info?lang=${locale}`,
+    {
+      headers: {
+        Accept: "application/json",
+        method: "GET",
+      },
+    }
+  );
 
   return response;
 };
@@ -23,7 +29,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
   const t = await getTranslations("IndexPage");
   const resp = await getData(params.locale);
   const data = await resp.json();
-  console.log(data);
+
   return (
     <>
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white dark:bg-background print:space-y-6">

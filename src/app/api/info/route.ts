@@ -101,7 +101,7 @@ const data = {
 // The GET handler for the API route
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
-  const language = searchParams.get('lang') || 'en'; // Default to English
+  const language = searchParams.get('lang') || 'br'; // Default to English
 
   // Process data based on the language
   const localizedData = {
