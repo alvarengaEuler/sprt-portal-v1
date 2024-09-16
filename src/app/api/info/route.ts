@@ -20,7 +20,8 @@ const data = {
     {
       company: "Praxent LLC - TX",
       link: "https://praxent.com/",
-      badges: ["Remote", "React Native"],
+      badges: ["Remote"],
+      tech: ["React Native"],
       title: {
         en: "Mobile Software Engineer",
         br: "Engenheiro de Software Mobile",
@@ -35,7 +36,8 @@ const data = {
     {
       company: "Localiza & Co",
       link: "https://apps.apple.com/br/app/localiza-meoo/id1528537131",
-      badges: ["Remote", "ReactJS", "React Native"],
+      badges: ["Remote"],
+      tech: ["ReactJS", "React Native"],
       title: {
         en: "Software Engineer",
         br: "Engenheiro de Software",
@@ -66,7 +68,8 @@ const data = {
     {
       company: "Escola Em Movimento",
       link: "https://play.google.com/store/apps/details?id=br.com.eteg.escolaemmovimento.escolaEmMovimentoAgendaDigital&hl=pt_BR&gl=US",
-      badges: ["on-site", "React Native"],
+      badges: ["on-site"],
+      tech: ["React Native"],
       title: {
         en: "Mobile Engineer",
         br: "Engenheiro de Software"
@@ -82,7 +85,8 @@ const data = {
     {
       company: "Mereo",
       link: "https://play.google.com/store/apps/details?id=com.mereomob&hl=pt_BR",
-      badges: ["on-site", "React Native"],
+      badges: ["on-site"],
+      tech: ["React Native"],
       title: {
         en: "Mobile Engineer",
         br: "Engenheiro de Software"
