@@ -12,12 +12,9 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
 const getData = async (locale: string) => {
-  const response = await fetch(
-    `http://localhost:3000/api/data?lang=${locale}`,
-    {
-      cache: "no-cache",
-    }
-  );
+  const response = await fetch(`/api/data?lang=${locale}`, {
+    cache: "no-cache",
+  });
 
   return response;
 };
